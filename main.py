@@ -5,6 +5,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QInputDialog, QLineEdit, QFil
 from PyQt5 import QtCore, QtGui, QtWidgets
 from Design import Ui_MainWindow
 from parser import Parser
+from graphviz import Graph
 from pydotplus import *
 
 global scanner_token
